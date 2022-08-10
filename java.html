@@ -4,16 +4,14 @@
     
     <title>My Dynamic Details Page</title>
     <script type="text/javascript"> 
-    function displayInput () //Function will dispay a blue version of input.
+    function displayInput()//Function will respond with name
         {var testInput = document.getElementById("name").value;
         
             if (testInput.length==0)
         {//It's good to use white space like indents.
-    document.getElementById("para").innerHTML="Hey, you didn't type anything!"
+    document.getElementById("para").innerHTML="Hey you didn't type anything!"
     }
-    else
-    document.getElementById("para").innerHTML=testInput;
-    }
+}
     
     
     
@@ -24,27 +22,15 @@
 </head>
 
 <body>
-    <H1 style="color:blue;">Let's see another button</H1>
+    <H1 style="color:burlywood;">Check this out Ronald</H1>
 
 
     <input id="name" type="text"/>
 
-    <button onclick="displayInput();">Color It</button>
+    <button onclick="displayInput();">Submit</button>
 
-
-    <p id="para" style="color:limegreen"></p>
+     <p id="para" style="color:red"></p>
 </body>
-    
-    
-    
-    
-       
-
-
-
-
-
-
     </html>
     
 
